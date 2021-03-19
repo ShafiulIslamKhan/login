@@ -1,0 +1,79 @@
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0px;
+	border: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.container{
+	width: 650px;
+	margin: 190px auto;
+
+}
+.reg-section{
+	background: #bfba132e;
+    padding: 25px;
+}
+.reg-section img{
+	width: 150px;
+    margin: 0px auto;
+    display: block;
+}
+
+.reg-section h2{
+	text-align: center;
+	color: white;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+label{
+	color: #fff;
+}
+.form-control {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.reg-btn{
+	margin: 4px auto;
+	margin-bottom: 45px;
+	display: block;
+	background-color: #84840c;
+	border: 2px dotted #1c3c1c;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 600;
+	padding: 13px 22px;
+	text-transform: uppercase;
+	transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
+}
+.reg-btn:hover{
+	cursor: pointer;
+	box-shadow: 3px 5px 5px #e0e09c;
+}
+a{
+	font-size: small;
+	background: red;
+	border: 2px dotted black;
+	border-radius: 7px;
+	color: wheat;
+	transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
+}
+a:hover{
+	cursor: pointer;
+	box-shadow: 3px 5px 3px #d67979;
+}
